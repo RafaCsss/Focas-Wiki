@@ -1,0 +1,89 @@
+/* ================= BLOQUE SUPERIOR ================= */
+
+.indexMainSuperior {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Laterales */
+
+.lateral img {
+    width: 200px;
+    border-radius: 12px;
+}
+
+/* ================= SLIDER ================= */
+
+.sliderIndex {
+    flex: 1;
+    overflow: hidden; /* CLAVE */
+}
+
+.slides {
+    display: flex;
+    animation: sliderInfinito 20s linear infinite;
+}
+
+.slides img {
+    height: 300px;
+    width: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+/* Animación estable */
+
+@keyframes sliderInfinito {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+/* ================= TEXTO ================= */
+
+.cuerpoindex {
+    font-size: 1.4rem;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* ===== CONTENIDO EXTRA INDEX ===== */
+
+.introExtra {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.bloqueVisual {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 60px 0;
+    flex-wrap: wrap;
+    
+}
+
+.bloqueTexto {
+    background: rgba(73, 93, 105, 0.6);
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    color: white;
+}
+
+.cierreIndex {
+    text-align: center;
+    margin: 60px 0 80px 0;
+    color: white;
+    font-style: italic;
+}

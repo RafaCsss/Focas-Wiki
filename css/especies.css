@@ -1,0 +1,11 @@
+.bloqueEspecie {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.bloqueEspecie img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}

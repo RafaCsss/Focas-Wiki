@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---------------- CSS BASE ---------------->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Foca Wiki | Contacto</title>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="/img/focas TandI.png" alt="Logo Foca Wiki">
+    </div>
+
+    <nav class="navegador">
+
+        <a href="index.html">Inicio</a>
+        <a href="especies.html">Especies</a>
+
+        <div class="desplegable">
+            <span class="botonDesplegable">
+                Vida
+                <img src="/img/flecha-hacia-abajo-para-navegar.png" alt="">
+            </span>
+            <div class="Submenu">
+                <a href="habitat.html">Hábitat</a>
+                <a href="alimentacion.html">Alimentación</a>
+            </div>
+        </div>
+
+        <div class="desplegable">
+            <span class="botonDesplegable">
+                Conservación
+                <img src="/img/flecha-hacia-abajo-para-navegar.png" alt="">
+            </span>
+            <div class="Submenu">
+                <a href="proteccion.html">Protección</a>
+                <a href="amenazas.html">Amenazas</a>
+            </div>
+        </div>
+
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+
+    </nav>
+</header>
+
+<main>
+
+    <div class="titulo">
+        <img src="/img/contacto/contacto.png" alt="Contacto">
+    </div>
+
+    <p class="intro">
+        Si deseas obtener más información sobre las focas o colaborar con
+        iniciativas de conservación, puedes completar el siguiente formulario.
+        Nos pondremos en contacto contigo lo antes posible.
+    </p>
+
+    <!------------Formulario------------>
+    <form class="formulario">
+
+        <!-- Datos personales -->
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">Correo electrónico:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <!-- Select -->
+        <div class="campo">
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo">
+                <option value="informacion">Información general</option>
+                <option value="colaboracion">Colaboración</option>
+                <option value="educacion">Proyecto educativo</option>
+            </select>
+        </div>
+
+        <!-- Radio -->
+        <div class="campo">
+            <p>Tipo de usuario:</p>
+
+            <label>
+                <input type="radio" name="usuario" value="estudiante"> Estudiante
+            </label>
+
+            <label>
+                <input type="radio" name="usuario" value="investigador"> Investigador
+            </label>
+
+            <label>
+                <input type="radio" name="usuario" value="otro"> Otro
+            </label>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="campo">
+            <p>Intereses:</p>
+
+            <label>
+                <input type="checkbox" name="interes" value="conservacion"> Conservación
+            </label>
+
+            <label>
+                <input type="checkbox" name="interes" value="educacion"> Educación ambiental
+            </label>
+
+            <label>
+                <input type="checkbox" name="interes" value="investigacion"> Investigación
+            </label>
+        </div>
+
+        <!-- Textarea -->
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>Copyright 2026 © Foca Wiki All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
