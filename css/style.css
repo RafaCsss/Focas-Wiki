@@ -12,7 +12,7 @@ html, body {
 /* ================= BODY ================= */
 
 body {
-    background: url(img/fondoFocas.jpg);
+    background: url(../img/fondoFocas.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
