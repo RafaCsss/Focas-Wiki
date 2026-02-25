@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/index.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/especies.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/habitat.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/alimentacion.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/proteccion.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/amenazas.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/galeria.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://rafacsss.github.io/Focas-Wiki/pages/contacto.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
