@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<!--pagina de inicio-->
   <url>
     <loc>https://rafacsss.github.io/Focas-Wiki/</loc>
     <lastmod>2026-02-25</lastmod>
@@ -8,6 +9,8 @@
     <priority>1.0</priority>
   </url>
 
+
+<!--rafael si lees esto (es para ti mismo duh) literlamente esta en el nombre-->
   <url>
     <loc>https://rafacsss.github.io/Focas-Wiki/pages/especies.html</loc>
     <lastmod>2026-02-25</lastmod>
