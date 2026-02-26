@@ -16,7 +16,9 @@
     width: 200px;
     border-radius: 12px;
 }
-
+.lateral:hover img {
+    width: 250px;
+}
 /* ================= SLIDER ================= */
 
 .sliderIndex {
